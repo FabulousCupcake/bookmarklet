@@ -1,5 +1,5 @@
 {
-  "name": "bookmarklet",
+  "name": "@fbcpck/bookmarklet",
   "version": "1.1.0",
   "description": "A JavaScript bookmarklet compiler and demo page creator with greasemonkey userscript-like metadata options",
   "main": "bookmarklet.js",
@@ -12,11 +12,14 @@
   "scripts": {
     "test": "bash test/run.sh"
   },
-  "repository": "https://github.com/mrcoles/bookmarklet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabulousCupcake/bookmarklet.git"
+  },
   "keywords": [
     "bookmarklet"
   ],
-  "author": "Peter Coles",
+  "author": "Peter Coles / FabulousCupcake",
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
